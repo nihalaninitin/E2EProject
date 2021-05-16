@@ -29,7 +29,7 @@ public class validateTitle extends base {
 
 	public void basePageTest() throws IOException {
 		LandingPage lp = new LandingPage(driver);
-		Assert.assertEquals(lp.getTitle().getText(), "FEATURED COURSES123");		
+		Assert.assertEquals(lp.getTitle().getText(), "FEATURED COURSES");		
 	}
 
 	@AfterTest
